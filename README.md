@@ -1,6 +1,7 @@
 Data Salary Dashboard 🎲
 
 Este repositório contém uma aplicação interativa (Dashboard) desenvolvida para analisar a remuneração global na área de ciência de dados. O projeto utiliza os dados tratados durante a Imersão de Dados da Alura (2026) para fornecer insights visuais e dinâmicos.
+
 🔗 Acesse o Dashboard Online: https://2026-imersao-dados-python.streamlit.app
 
 🔗 Demonstração
