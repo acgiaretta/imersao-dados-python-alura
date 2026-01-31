@@ -4,9 +4,11 @@ Este repositório contém uma aplicação interativa (Dashboard) desenvolvida pa
 
 🔗 Acesse o Dashboard Online: https://2026-imersao-dados-python.streamlit.app
 
+
 🔗 Demonstração
 
 O dashboard foi construído com a biblioteca Streamlit e permite filtrar informações em tempo real.
+
 
 🛠️ Funcionalidades e Filtros
 
@@ -20,27 +22,30 @@ A aplicação permite que o usuário refine a busca através de:
   
 • `Tamanho da Empresa`: Pequena (S), Média (M) ou Grande (L).
 
+
 📊 Visualizações Incluídas
 
 O dashboard apresenta 4 indicadores principais (KPIs) e 4 gráficos dinâmicos:
 
- * [X] • Métricas Gerais: Salário médio, valor máximo, total de registros e cargo mais frequente.
+ * [X] Métricas Gerais: Salário médio, valor máximo, total de registros e cargo mais frequente.
 
- * [X] • Top 10 Cargos: Gráfico de barras horizontais com as maiores médias salariais.
+ * [X] Top 10 Cargos: Gráfico de barras horizontais com as maiores médias salariais.
 
- * [X] • Distribuição Salarial: Histograma para entender a frequência das faixas de renda.
+ * [X] Distribuição Salarial: Histograma para entender a frequência das faixas de renda.
 
- * [X] • Tipos de Trabalho: Gráfico de rosca mostrando a proporção entre Remoto, Híbrido e Presencial.
+ * [X] Tipos de Trabalho: Gráfico de rosca mostrando a proporção entre Remoto, Híbrido e Presencial.
 
-* [X] • Mapa Global: Mapa coroplético mostrando a média salarial especificamente para Data Scientists ao redor do mundo.
+* [X] Mapa Global: Mapa coroplético mostrando a média salarial especificamente para Data Scientists ao redor do mundo.
+
 
 🗂️ Estrutura de Arquivos
 
-  • app.py: O código principal da aplicação Streamlit.
+  • `app.py`: O código principal da aplicação Streamlit.
 
-  • dados-imersao-final.csv: Base de dados tratada e utilizada pelo dashboard.
+  • `dados-imersao-final.csv`: Base de dados tratada e utilizada pelo dashboard.
 
-  • requirements.txt: Lista de bibliotecas necessárias para rodar o projeto.
+  • `requirements.txt`: Lista de bibliotecas necessárias para rodar o projeto.
+
 
 🛠️ Tecnologias Utilizadas
 
