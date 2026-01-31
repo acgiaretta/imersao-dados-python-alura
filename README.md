@@ -1,58 +1,53 @@
-Data Salary Dashboard 🎲
+# 🎲 Dashboard de Salários na Área de Dados
 
-Este repositório contém uma aplicação interativa (Dashboard) desenvolvida para analisar a remuneração global na área de ciência de dados. O projeto utiliza os dados tratados durante a Imersão de Dados da Alura (2026) para fornecer insights visuais e dinâmicos.
+Este projeto é uma aplicação interativa desenvolvida para explorar e visualizar a remuneração global na área de dados. Ele transforma dados brutos em insights visuais através de um dashboard dinâmico.
 
-🔗 Acesse o Dashboard Online: https://2026-imersao-dados-python.streamlit.app
+> **Status do Projeto:** Concluído ✅
 
+---
 
-🔗 Demonstração
+## 🔗 Link de Acesso
+Você pode interagir com o dashboard através do link abaixo:
+👉 [**Acesse o Dashboard Online Aqui**](https://2026-imersao-dados-python.streamlit.app)
 
-O dashboard foi construído com a biblioteca Streamlit e permite filtrar informações em tempo real.
+---
 
+## 🛠️ Funcionalidades do Dashboard
 
-🛠️ Funcionalidades e Filtros
+O dashboard permite realizar análises personalizadas utilizando os seguintes filtros:
 
-A aplicação permite que o usuário refine a busca através de:
+* **Filtros Temporais**
+    * `Ano`: Permite comparar os salários entre diferentes anos.
+* **Filtros de Carreira**
+    * `Senioridade`: Classificação por nível de experiência (Junior, Pleno, Sênior e Executivo).
+    * `Tipo de Contrato`: Filtro por contratos Full-time, Freelance, Part-time ou Contrato.
+* **Filtros de Empresa**
+    * `Tamanho da Empresa`: Analise se o porte da empresa (Pequena, Média ou Grande) influencia o salário.
 
-• `Ano`: Comparação entre diferentes períodos.
+---
 
-• `Senioridade`: Níveis Junior (EN), Pleno (MI), Sênior (SE) e Executivo (EX).
+## 📊 Visualizações e Insights
 
-• `Tipo de Contrato`: Full-time, Part-time, Freelance ou Contrato.
-  
-• `Tamanho da Empresa`: Pequena (S), Média (M) ou Grande (L).
+O projeto entrega as seguintes informações visuais:
 
+1.  **Indicadores (KPIs):** Salário médio (USD), maior salário registrado e cargo mais frequente.
+2.  **Distribuição Global:** Um mapa interativo mostrando a média salarial por país.
+3.  **Análise de Cargos:** Top 10 cargos com as melhores remunerações.
+4.  **Modelo de Trabalho:** Proporção entre vagas remotas, híbridas e presenciais.
 
-📊 Visualizações Incluídas
+---
 
-O dashboard apresenta 4 indicadores principais (KPIs) e 4 gráficos dinâmicos:
+## 📂 Estrutura do Repositório
 
-      * [X] Métricas Gerais: Salário médio, valor máximo, total de registros e cargo mais frequente.
+* `app.py`: Código principal da aplicação (Streamlit).
+* `dados-imersao-final.csv`: Base de dados tratada.
+* `requirements.txt`: Lista de bibliotecas para instalação.
 
-     * [X] Top 10 Cargos: Gráfico de barras horizontais com as maiores médias salariais.
+---
 
-     * [X] Distribuição Salarial: Histograma para entender a frequência das faixas de renda.
+## 💻 Tecnologias Utilizadas
 
-     * [X] Tipos de Trabalho: Gráfico de rosca mostrando a proporção entre Remoto, Híbrido e Presencial.
-
-    * [X] Mapa Global: Mapa coroplético mostrando a média salarial especificamente para Data Scientists ao redor do mundo.
-
-
-🗂️ Estrutura de Arquivos
-
-  • `app.py`: O código principal da aplicação Streamlit.
-
-  • `dados-imersao-final.csv`: Base de dados tratada e utilizada pelo dashboard.
-
-  • `requirements.txt`: Lista de bibliotecas necessárias para rodar o projeto.
-
-
-🛠️ Tecnologias Utilizadas
-
-  • Python
-
-  • Streamlit (Interface do Dashboard)
-
-  • Pandas (Tratamento de Dados)
-
-  • Plotly Express (Gráficos Interativos)
+* **Python** 🐍
+* **Streamlit** (Interface e visualização)
+* **Pandas** (Tratamento de dados)
+* **Plotly** (Gráficos interativos)
