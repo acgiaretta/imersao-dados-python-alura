@@ -10,13 +10,13 @@ O dashboard foi construído com a biblioteca Streamlit e permite filtrar informa
 
 A aplicação permite que o usuário refine a busca através de:
 
-    • Ano: Comparação entre diferentes períodos.
+• Ano: Comparação entre diferentes períodos.
 
-    • Senioridade: Níveis Junior (EN), Pleno (MI), Sênior (SE) e Executivo (EX).
+• Senioridade: Níveis Junior (EN), Pleno (MI), Sênior (SE) e Executivo (EX).
 
-    • Tipo de Contrato: Full-time, Part-time, Freelance ou Contrato.
+• Tipo de Contrato: Full-time, Part-time, Freelance ou Contrato.
   
-    • Tamanho da Empresa: Pequena (S), Média (M) ou Grande (L).
+• Tamanho da Empresa: Pequena (S), Média (M) ou Grande (L).
 
 📊 Visualizações Incluídas
 
