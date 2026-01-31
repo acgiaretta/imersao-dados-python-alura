@@ -4,7 +4,7 @@ Este repositório contém uma aplicação interativa (Dashboard) desenvolvida pa
 
 🔗 Acesse o Dashboard Online: https://2026-imersao-dados-python.streamlit.app
 
-🔗 Demonstração
+###🔗 Demonstração ###
 
 O dashboard foi construído com a biblioteca Streamlit e permite filtrar informações em tempo real.
 
