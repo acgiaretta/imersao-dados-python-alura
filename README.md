@@ -24,15 +24,15 @@ A aplicação permite que o usuário refine a busca através de:
 
 O dashboard apresenta 4 indicadores principais (KPIs) e 4 gráficos dinâmicos:
 
-  • Métricas Gerais: Salário médio, valor máximo, total de registros e cargo mais frequente.
+ * [X] • Métricas Gerais: Salário médio, valor máximo, total de registros e cargo mais frequente.
 
-  • Top 10 Cargos: Gráfico de barras horizontais com as maiores médias salariais.
+ * [X] • Top 10 Cargos: Gráfico de barras horizontais com as maiores médias salariais.
 
-  • Distribuição Salarial: Histograma para entender a frequência das faixas de renda.
+ * [X] • Distribuição Salarial: Histograma para entender a frequência das faixas de renda.
 
-  • Tipos de Trabalho: Gráfico de rosca mostrando a proporção entre Remoto, Híbrido e Presencial.
+ * [X] • Tipos de Trabalho: Gráfico de rosca mostrando a proporção entre Remoto, Híbrido e Presencial.
 
-  • Mapa Global: Mapa coroplético mostrando a média salarial especificamente para Data Scientists ao redor do mundo.
+* [X] • Mapa Global: Mapa coroplético mostrando a média salarial especificamente para Data Scientists ao redor do mundo.
 
 🗂️ Estrutura de Arquivos
 
