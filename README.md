@@ -10,42 +10,42 @@ O dashboard foi construído com a biblioteca Streamlit e permite filtrar informa
 
 A aplicação permite que o usuário refine a busca através de:
 
-• Ano: Comparação entre diferentes períodos.
+  • Ano: Comparação entre diferentes períodos.
 
-• Senioridade: Níveis Junior (EN), Pleno (MI), Sênior (SE) e Executivo (EX).
+  • Senioridade: Níveis Junior (EN), Pleno (MI), Sênior (SE) e Executivo (EX).
 
-• Tipo de Contrato: Full-time, Part-time, Freelance ou Contrato.
+  • Tipo de Contrato: Full-time, Part-time, Freelance ou Contrato.
 
-• Tamanho da Empresa: Pequena (S), Média (M) ou Grande (L).
+  • Tamanho da Empresa: Pequena (S), Média (M) ou Grande (L).
 
 📊 Visualizações Incluídas
 
 O dashboard apresenta 4 indicadores principais (KPIs) e 4 gráficos dinâmicos:
 
-• Métricas Gerais: Salário médio, valor máximo, total de registros e cargo mais frequente.
+  • Métricas Gerais: Salário médio, valor máximo, total de registros e cargo mais frequente.
 
-• Top 10 Cargos: Gráfico de barras horizontais com as maiores médias salariais.
+  • Top 10 Cargos: Gráfico de barras horizontais com as maiores médias salariais.
 
-• Distribuição Salarial: Histograma para entender a frequência das faixas de renda.
+  • Distribuição Salarial: Histograma para entender a frequência das faixas de renda.
 
-• Tipos de Trabalho: Gráfico de rosca mostrando a proporção entre Remoto, Híbrido e Presencial.
+  • Tipos de Trabalho: Gráfico de rosca mostrando a proporção entre Remoto, Híbrido e Presencial.
 
-• Mapa Global: Mapa coroplético mostrando a média salarial especificamente para Data Scientists ao redor do mundo.
+  • Mapa Global: Mapa coroplético mostrando a média salarial especificamente para Data Scientists ao redor do mundo.
 
 🗂️ Estrutura de Arquivos
 
-• app.py: O código principal da aplicação Streamlit.
+  • app.py: O código principal da aplicação Streamlit.
 
-• dados-imersao-final.csv: Base de dados tratada e utilizada pelo dashboard.
+  • dados-imersao-final.csv: Base de dados tratada e utilizada pelo dashboard.
 
-• requirements.txt: Lista de bibliotecas necessárias para rodar o projeto.
+  • requirements.txt: Lista de bibliotecas necessárias para rodar o projeto.
 
 🛠️ Tecnologias Utilizadas
 
-• Python
+  • Python
 
-• Streamlit (Interface do Dashboard)
+  • Streamlit (Interface do Dashboard)
 
-• Pandas (Tratamento de Dados)
+  • Pandas (Tratamento de Dados)
 
-• Plotly Express (Gráficos Interativos)
+  • Plotly Express (Gráficos Interativos)
